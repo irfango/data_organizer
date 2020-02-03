@@ -68,7 +68,7 @@ for f_doc in os.listdir(cwd):
         print(f_doc)
         shutil.move(PATH + f_doc ,DOCUMENTS + f_doc)
 
-#videos
+#videoss
 
 for f_video in os.listdir(cwd):
     if f_video.endswith('.mp4'):
@@ -90,5 +90,5 @@ for f_video in os.listdir(cwd):
         print(f_video)
         shutil.move(PATH + f_video ,VIDEOS + f_video)
 
-#print("file moved successfully")
+print("file moved successfully")
         
