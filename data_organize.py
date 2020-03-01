@@ -45,6 +45,11 @@ for f_photos in os.listdir(cwd):
     if f_photos.endswith('.jpg'):
         print(f_photos)
         shutil.move(PATH + f_photos ,PHOTOS + f_photos)
+
+for f_photos in os.listdir(cwd):
+    if f_photos.endswith('.JPG'):
+        print(f_photos)
+        shutil.move(PATH + f_photos ,PHOTOS + f_photos)
         
 for f_photos in os.listdir(cwd):
     if f_photos.endswith('.png'):
@@ -77,6 +82,11 @@ for f_video in os.listdir(cwd):
         
 for f_video in os.listdir(cwd):
     if f_video.endswith('.mov'):
+        print(f_video)
+        shutil.move(PATH + f_video ,VIDEOS + f_video)
+
+for f_video in os.listdir(cwd):
+    if f_video.endswith('.MOV'):
         print(f_video)
         shutil.move(PATH + f_video ,VIDEOS + f_video)
         
